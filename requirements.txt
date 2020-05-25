@@ -1,1 +1,2 @@
 Django~=2.2.4
+django-pwa==1.0.8
