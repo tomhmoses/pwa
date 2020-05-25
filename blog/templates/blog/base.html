@@ -15,6 +15,10 @@
             <a href="{% url 'post_new' %}" class="top-menu">
                 <span class="glyphicon glyphicon-plus"></span>
             </a>
+        {% else %}
+            <a href="/admin/" class="top-menu">
+                <span class="glyphicon glyphicon-log-in"></span>
+            </a>
         {% endif %}
         <h1><a href="/">Toms Blog</a></h1>
     </div>
